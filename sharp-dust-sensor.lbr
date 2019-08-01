@@ -134,9 +134,17 @@
 </symbols>
 <devicesets>
 <deviceset name="GP2Y1010AU0F">
-<description>The optical dust sensor
+<description>&lt;b&gt;GP2Y1010AU0F&lt;/b&gt; -Optical Dust Sensor
 
-Source: https://kr.mouser.com/datasheet/2/365/gp2y1010au_appl_e-1483236.pdf</description>
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;VCC: 4.5-5.5V&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -20°C to 65°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+ 
+&lt;p&gt;Digikey: 1855-1012-ND&lt;br/&gt;
+Mouser: 852-GP2Y1010AU0F&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="GP2Y1010AU0F" x="0" y="0"/>
 </gates>
@@ -157,9 +165,17 @@ Source: https://kr.mouser.com/datasheet/2/365/gp2y1010au_appl_e-1483236.pdf</des
 </devices>
 </deviceset>
 <deviceset name="GP2Y1014AU0F">
-<description>The optical dust sensor
+<description>&lt;b&gt;GP2Y1014AU0F&lt;/b&gt; -Optical Dust Sensor
 
-Source: https://kr.mouser.com/datasheet/2/365/GP2Y1014AU0F_SPEC-1288381.pdf</description>
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;VCC: 4.5-5.5V&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -20°C to 65°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+ 
+&lt;p&gt;Digikey: 1855-1013-ND&lt;br/&gt;
+Mouser: 852-GP2Y1014AU0F&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="GP2Y1014AU0F" x="0" y="0"/>
 </gates>
