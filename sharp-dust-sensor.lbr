@@ -81,38 +81,50 @@
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <packages>
-<package name="GP2Y1014AU0F" urn="urn:adsk.eagle:footprint:12467234/2">
-<pad name="V-LED" x="-6.35" y="0" drill="0.7" shape="square"/>
-<pad name="LED-GND" x="-3.81" y="0" drill="0.7"/>
-<pad name="LED" x="-1.27" y="0" drill="0.7"/>
-<pad name="S-GND" x="1.27" y="0" drill="0.7"/>
-<pad name="VO" x="3.81" y="0" drill="0.7"/>
-<pad name="VCC" x="6.35" y="0" drill="0.7"/>
-<text x="-7.458" y="1.319665625" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.458" y="-2.589665625" size="1.27" layer="27">&gt;VALUE</text>
+<package name="GP2Y1014AU0F" urn="urn:adsk.eagle:footprint:12467234/3">
+<text x="-23.968" y="-22.909665625" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-23.968" y="16.559665625" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-24.13" y1="-16.51" x2="-8.89" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-16.51" x2="22.86" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="22.86" y1="-16.51" x2="22.86" y2="16.51" width="0.127" layer="21"/>
+<wire x1="22.86" y1="16.51" x2="-24.13" y2="16.51" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="16.51" x2="-24.13" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="-16.51" x2="-24.13" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="-21.59" x2="-8.89" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-21.59" x2="-8.89" y2="-16.51" width="0.127" layer="21"/>
+<pad name="V-LED1" x="-22.86" y="-19.05" drill="0.7" shape="square"/>
+<pad name="LED-GND1" x="-20.32" y="-19.05" drill="0.7"/>
+<pad name="LED1" x="-17.78" y="-19.05" drill="0.7"/>
+<pad name="S-GND1" x="-15.24" y="-19.05" drill="0.7"/>
+<pad name="VO1" x="-12.7" y="-19.05" drill="0.7"/>
+<pad name="VCC1" x="-10.16" y="-19.05" drill="0.7"/>
 </package>
-<package name="GP2Y1010AU0F" urn="urn:adsk.eagle:footprint:12467233/2">
-<pad name="V-LED" x="-6.35" y="0" drill="0.7" shape="square"/>
-<pad name="LED-GND" x="-3.81" y="0" drill="0.7"/>
-<pad name="LED" x="-1.27" y="0" drill="0.7"/>
-<pad name="S-GND" x="1.27" y="0" drill="0.7"/>
-<pad name="VO" x="3.81" y="0" drill="0.7"/>
-<pad name="VCC" x="6.35" y="0" drill="0.7"/>
-<text x="-7.458" y="1.319665625" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.458" y="-2.589665625" size="1.27" layer="27">&gt;VALUE</text>
+<package name="GP2Y1010AU0F" urn="urn:adsk.eagle:footprint:12467233/3">
+<text x="-23.968" y="-22.909665625" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-23.968" y="16.559665625" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-24.13" y1="-16.51" x2="-8.89" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-16.51" x2="22.86" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="22.86" y1="-16.51" x2="22.86" y2="16.51" width="0.127" layer="21"/>
+<wire x1="22.86" y1="16.51" x2="-24.13" y2="16.51" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="16.51" x2="-24.13" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="-16.51" x2="-24.13" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="-21.59" x2="-8.89" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-21.59" x2="-8.89" y2="-16.51" width="0.127" layer="21"/>
+<pad name="V-LED2" x="-22.86" y="-19.05" drill="0.7" shape="square"/>
+<pad name="LED-GND2" x="-20.32" y="-19.05" drill="0.7"/>
+<pad name="LED2" x="-17.78" y="-19.05" drill="0.7"/>
+<pad name="S-GND2" x="-15.24" y="-19.05" drill="0.7"/>
+<pad name="VO2" x="-12.7" y="-19.05" drill="0.7"/>
+<pad name="VCC2" x="-10.16" y="-19.05" drill="0.7"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="GP2Y1014AU0F" urn="urn:adsk.eagle:package:12467238/4" type="model">
-<description>Single-row, 6-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 2.54 mm insulator length, 15.24 X 2.54 X 2.54 mm body
-&lt;p&gt;Single-row (1X6), 6-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 2.54 mm insulator length with overall size 15.24 X 2.54 X 2.54 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<package3d name="GP2Y1014AU0F" urn="urn:adsk.eagle:package:12467238/6" type="model">
 <packageinstances>
 <packageinstance name="GP2Y1014AU0F"/>
 </packageinstances>
 </package3d>
-<package3d name="GP2Y1010AU0F" urn="urn:adsk.eagle:package:12467237/4" type="model">
-<description>Single-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 15.24 X 2.54 X 8.38 mm body
-&lt;p&gt;Single-row (1X6), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 15.24 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<package3d name="GP2Y1010AU0F" urn="urn:adsk.eagle:package:12467237/6" type="model">
 <packageinstances>
 <packageinstance name="GP2Y1010AU0F"/>
 </packageinstances>
@@ -130,8 +142,8 @@
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
-<text x="-7.62" y="17.78" size="1.778" layer="94">&gt;NAME</text>
-<text x="-7.62" y="-20.32" size="1.778" layer="94">&gt;VALUE</text>
+<text x="-7.62" y="15.24" size="1.778" layer="94">&gt;NAME</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="GP2Y1010AU0F">
 <pin name="V-LED" x="-12.7" y="12.7" length="middle"/>
@@ -144,8 +156,8 @@
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
-<text x="-7.62" y="17.78" size="1.778" layer="94">&gt;NAME</text>
-<text x="-7.62" y="-20.32" size="1.778" layer="94">&gt;VALUE</text>
+<text x="-7.62" y="15.24" size="1.778" layer="94">&gt;NAME</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -162,20 +174,20 @@
 &lt;p&gt;Digikey: 1855-1013-ND&lt;br/&gt;
 Mouser: 852-GP2Y1014AU0F&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="GP2Y1014AU0F" x="0" y="0"/>
+<gate name="&gt;NAME" symbol="GP2Y1014AU0F" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="GP2Y1014AU0F">
 <connects>
-<connect gate="G$1" pin="LED" pad="LED"/>
-<connect gate="G$1" pin="LED-GND" pad="LED-GND"/>
-<connect gate="G$1" pin="S-GND" pad="S-GND"/>
-<connect gate="G$1" pin="V-LED" pad="V-LED"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$1" pin="VO" pad="VO"/>
+<connect gate="&gt;NAME" pin="LED" pad="LED-GND1"/>
+<connect gate="&gt;NAME" pin="LED-GND" pad="LED1"/>
+<connect gate="&gt;NAME" pin="S-GND" pad="S-GND1"/>
+<connect gate="&gt;NAME" pin="V-LED" pad="V-LED1"/>
+<connect gate="&gt;NAME" pin="VCC" pad="VCC1"/>
+<connect gate="&gt;NAME" pin="VO" pad="VO1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12467238/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12467238/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -196,20 +208,20 @@ Mouser: 852-GP2Y1014AU0F&lt;/p&gt;</description>
 &lt;p&gt;Digikey: 1855-1012-ND&lt;br/&gt;
 Mouser: 852-GP2Y1010AU0F&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="GP2Y1010AU0F" x="0" y="0"/>
+<gate name="&gt;NAME" symbol="GP2Y1010AU0F" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="GP2Y1010AU0F">
 <connects>
-<connect gate="G$1" pin="LED" pad="LED"/>
-<connect gate="G$1" pin="LED-GND" pad="LED-GND"/>
-<connect gate="G$1" pin="S-GND" pad="S-GND"/>
-<connect gate="G$1" pin="V-LED" pad="V-LED"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$1" pin="VO" pad="VO"/>
+<connect gate="&gt;NAME" pin="LED" pad="LED-GND2"/>
+<connect gate="&gt;NAME" pin="LED-GND" pad="LED2"/>
+<connect gate="&gt;NAME" pin="S-GND" pad="S-GND2"/>
+<connect gate="&gt;NAME" pin="V-LED" pad="V-LED2"/>
+<connect gate="&gt;NAME" pin="VCC" pad="VCC2"/>
+<connect gate="&gt;NAME" pin="VO" pad="VO2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12467237/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12467237/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
