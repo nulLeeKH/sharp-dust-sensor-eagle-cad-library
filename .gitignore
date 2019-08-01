@@ -1,1 +1,4 @@
-.DS_STORE
+*
+!*.lbr
+!.gitignore
+!LICENSE
