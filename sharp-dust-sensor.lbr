@@ -89,11 +89,11 @@
 </package>
 <package name="GP2Y1010AU0F">
 <pad name="V-LED" x="1.27" y="0" drill="0.6" shape="square"/>
-<pad name="LED" x="2.54" y="0" drill="0.6"/>
-<pad name="LED-GND" x="3.81" y="0" drill="0.6"/>
-<pad name="VCC" x="5.08" y="0" drill="0.6"/>
+<pad name="LED-GND" x="2.54" y="0" drill="0.6"/>
+<pad name="LED" x="3.81" y="0" drill="0.6"/>
+<pad name="S-GND" x="5.08" y="0" drill="0.6"/>
 <pad name="VO" x="6.35" y="0" drill="0.6"/>
-<pad name="S-GND" x="7.62" y="0" drill="0.6"/>
+<pad name="VCC" x="7.62" y="0" drill="0.6"/>
 <wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="0" y1="-1.27" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-1.27" x2="8.89" y2="1.27" width="0.127" layer="21"/>
@@ -105,11 +105,11 @@
 <symbols>
 <symbol name="GP2Y1010AU0F">
 <pin name="V-LED" x="0" y="12.7" length="middle"/>
-<pin name="LED" x="0" y="7.62" length="middle"/>
-<pin name="LED-GND" x="0" y="2.54" length="middle"/>
-<pin name="VCC" x="0" y="-2.54" length="middle"/>
+<pin name="LED-GND" x="0" y="7.62" length="middle"/>
+<pin name="LED" x="0" y="2.54" length="middle"/>
+<pin name="S-GND" x="0" y="-2.54" length="middle"/>
 <pin name="VO" x="0" y="-7.62" length="middle"/>
-<pin name="S-GND" x="0" y="-12.7" length="middle"/>
+<pin name="VCC" x="0" y="-12.7" length="middle"/>
 <wire x1="5.08" y1="-15.24" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-15.24" x2="20.32" y2="15.24" width="0.254" layer="94"/>
 <wire x1="20.32" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
@@ -119,11 +119,11 @@
 </symbol>
 <symbol name="GP2Y1014AU0F">
 <pin name="V-LED" x="0" y="12.7" length="middle"/>
-<pin name="LED" x="0" y="7.62" length="middle"/>
-<pin name="LED-GND" x="0" y="2.54" length="middle"/>
-<pin name="VCC" x="0" y="-2.54" length="middle"/>
+<pin name="LED-GND" x="0" y="7.62" length="middle"/>
+<pin name="LED" x="0" y="2.54" length="middle"/>
+<pin name="S-GND" x="0" y="-2.54" length="middle"/>
 <pin name="VO" x="0" y="-7.62" length="middle"/>
-<pin name="S-GND" x="0" y="-12.7" length="middle"/>
+<pin name="VCC" x="0" y="-12.7" length="middle"/>
 <wire x1="5.08" y1="-15.24" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-15.24" x2="20.32" y2="15.24" width="0.254" layer="94"/>
 <wire x1="20.32" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
@@ -134,6 +134,9 @@
 </symbols>
 <devicesets>
 <deviceset name="GP2Y1010AU0F">
+<description>The optical dust sensor
+
+Source: https://kr.mouser.com/datasheet/2/365/gp2y1010au_appl_e-1483236.pdf</description>
 <gates>
 <gate name="G$1" symbol="GP2Y1010AU0F" x="0" y="0"/>
 </gates>
@@ -154,6 +157,9 @@
 </devices>
 </deviceset>
 <deviceset name="GP2Y1014AU0F">
+<description>The optical dust sensor
+
+Source: https://kr.mouser.com/datasheet/2/365/GP2Y1014AU0F_SPEC-1288381.pdf</description>
 <gates>
 <gate name="G$1" symbol="GP2Y1014AU0F" x="0" y="0"/>
 </gates>
