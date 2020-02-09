@@ -3,4 +3,4 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/nulLeeKH/sharp-dust-sensor-eagle-cad-library.svg)
 
 # sharp-dust-sensor-eagle-cad-library
-The eagle cad library including SHARP GP2Y1010AU0F and GP2Y1014AU0F.
+The eagle cad library including SHARP GP2Y1010AU0F and GP2Y1014AU0F
